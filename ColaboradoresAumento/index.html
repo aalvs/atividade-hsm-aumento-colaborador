@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento Colaborador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="wrapper">
+        <div class="container">
+            <div class="icon">
+                <img src="./icon/money-bag.svg" alt="Money Bag">
+            </div>
+            <div class="title">
+                <h1>Aumento de colaborador</h1>
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <input class="input-salario" id="input-salario" type="text" placeholder="Informe o salário atual do colaborador"> 
+                </div>
+                <div class="content2">
+                    <select name="planos" id="tipo-plano" class="tipo-plano">
+                        <option value="" selected disabled hidden>Selecione um plano de aumento</option>
+                        <option value="A">Plano A</option>
+                        <option value="B">Plano B</option>
+                        <option value="C">Plano C</option>
+                    </select> 
+                </div>
+                <button type="submit" onclick="update()">Calcular aumento</button>
+            </div>
+            <div class="salarioColaborador">
+                <h1>R$ <span id="novoSalario">0</span></h1>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

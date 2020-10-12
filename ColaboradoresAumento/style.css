@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+:root {
+    --color-roxo:   #8a05be;
+    --color-roxo-h: #9c43cd;
+    --color-dark:   #141414;
+    --color-white:  #fff;
+    --color-bg-c:   #f5f5f5;
+    --color-roxo-c: #d09be5;
+    --color-border: #e2e2e2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--color-bg-c);
+}
+
+html, body, input, button {
+    font-family: 'Cairo', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 540px;
+    height: 500px;
+    background-color: var(--color-white);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.08);
+}
+
+div.icon img {
+    width: 4rem;
+}
+
+div.title h1 {
+    color: var(--color-dark);
+}
+
+div.content1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+div.content2 {
+    margin: 1.4rem 0rem 2rem 0rem;
+}
+
+input.input-salario {
+    width: 400px;
+    height: 46px;
+    padding: 0.8em;
+
+    border: 2px solid var(--color-border);
+    border-radius: 5px;
+    outline: none;
+}
+
+input.input-salario:hover {
+    border: 2px solid var(--color-roxo-c);
+}
+
+input.input-salario:focus {
+    border: 2px solid var(--color-roxo-h);
+}
+
+select.tipo-plano {
+    width: 400px;
+    height: 46px;
+    padding: 0.5em;
+
+    border: 2px solid var(--color-border);
+    border-radius: 5px;
+    outline: none;
+}
+
+select.tipo-plano:hover {
+    border: 2px solid var(--color-roxo-c);  
+}
+
+select.tipo-plano:hover {
+    border: 2px solid var(--color-roxo-h);  
+}
+
+.content button {
+    width: 400px;
+    background-color: var(--color-roxo);
+    color: var(--color-white);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+.content button:hover {
+    background-color: var(--color-roxo-h);
+}
+
+
+div.salarioColaborador {
+    margin: 1rem 0rem;
+}
+
+div.salarioColaborador h1 {
+    font-size: 2em;
+    color: var(--color-roxo-h);
+}
