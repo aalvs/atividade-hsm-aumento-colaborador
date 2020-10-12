@@ -4,27 +4,23 @@
 
 ## 🚀 Atividade
 
-A consultoria em que você trabalha foi contratada para avaliar um Restaurante Universitário (RU) e a quantidade de vezes que os alunos o utilizaram no último mês.
+Os colaboradores de uma empresa recebem aumentos de acordo com o plano de trabalho, que é orientado pelos cálculos a seguir:
 
-Crie um programa que estará disponível em um totem digital na entrada e que deve ser executado de maneira contínua, sempre perguntando: “Deseja participar da pesquisa?”.
+Plano A - Aumento de 10%;
+Plano B - Aumento de 15%;
+Plano C - Aumento de 20%.
 
-Em caso afirmativo, o programa deve perguntar: “Quantas vezes você utilizou o Restaurante Universitário neste mês?”. Caso a resposta seja negativa, ele não realizará mais perguntas.
-
-O programa deve exibir:
-a) a quantidade de alunos entrevistados;
-b) o percentual de alunos que utilizaram menos de 10 vezes o restaurante; 
-c) o percentual de alunos que utilizaram entre 10 e 15 vezes;
-d) o percentual de alunos que utilizaram o restaurante acima de 15 vezes.
+Crie um programa que permita calcular o aumento de um colaborador e informe o novo salário. Use blocos do tipo switch.
 
 ---
 
 # 📚 O que eu aprendi com o projeto!
 
-- Trabalhar com document.querySelector();
-- Registro de eventos utilizando add.EventListener();
-- Trabalhar com laço de repetição for();
-- Manipular o DOM, sobrescrevendo valors com a propriedade innerText();
-- Arredaondar número especificando casas decimais com método toFixed().
+- Trabalhar com switch case;
+- Manipular valores de input;
+- Converter string e número float com parseFloat();
+- Manipular options de uma tag <select>;
+- Realizar operações artméticas com JS.
 
 # 💻 Tecnologias
 
