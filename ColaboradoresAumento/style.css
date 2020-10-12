@@ -98,7 +98,7 @@ select.tipo-plano:hover {
     border: 2px solid var(--color-roxo-c);  
 }
 
-select.tipo-plano:hover {
+select.tipo-plano:focus {
     border: 2px solid var(--color-roxo-h);  
 }
 
