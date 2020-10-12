@@ -19,7 +19,7 @@ Crie um programa que permita calcular o aumento de um colaborador e informe o no
 - Trabalhar com switch case;
 - Manipular valores de input;
 - Converter string e número float com parseFloat();
-- Manipular options de uma tag <select>;
+- Manipular options de um select;
 - Realizar operações artméticas com JS.
 
 # 💻 Tecnologias
