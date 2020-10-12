@@ -12,17 +12,17 @@ function update() {
 
     switch(itemSelect) {
         case 'A':
-            aumentoSalario = salarioFormatado + (salarioFormatado * 10);
+            aumentoSalario = salarioFormatado + (salarioFormatado * .10);
             novoSalario.innerText = aumentoSalario;
             console.log(aumentoSalario);
             break;
         case 'B':
-            aumentoSalario = salarioFormatado + (salarioFormatado * 15);
+            aumentoSalario = salarioFormatado + (salarioFormatado * .15);
             novoSalario.innerText = aumentoSalario;
             console.log(aumentoSalario);
             break;
         case 'C':
-            aumentoSalario = salarioFormatado + (salarioFormatado * 20);
+            aumentoSalario = salarioFormatado + (salarioFormatado * .20);
             novoSalario.innerText = aumentoSalario;
             console.log(aumentoSalario);
             break;
